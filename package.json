@@ -1,11 +1,11 @@
 {
   "name": "general-utils",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "general utils",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "post-install": "cd ..;npe dependencies {} && npe devDependencies {} && npm i"
+    "post-install": "cd ../..;npe dependencies {} && npe devDependencies {} && npm i"
   },
   "keywords": [
     "general",
