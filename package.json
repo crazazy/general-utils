@@ -1,0 +1,19 @@
+{
+  "name": "general-utils",
+  "version": "1.0.0",
+  "description": "general utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "post-install": "npe dependencies {} && npe devDependencies {} && npm i"
+  },
+  "keywords": [
+    "general",
+    "utils"
+  ],
+  "author": "Crazazy",
+  "license": "MIT",
+  "devDependencies": {
+    "npe": "^1.1.0"
+  }
+}
